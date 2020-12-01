@@ -2,7 +2,7 @@ wiek = int(input("Podaj wiek: "))
 ile_nocy = int(input("Ile noclegów spędzisz w hotelu: "))
 if wiek < 18:
     cena = 100
-elif wiek >= 18 :
+elif wiek >= 18:
     if ile_nocy == 1:
         cena = 200
     elif 2 <= ile_nocy < 5:

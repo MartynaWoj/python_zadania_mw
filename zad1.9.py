@@ -8,4 +8,4 @@ while liczby <= 100:
         print(f"{liczby} - FizzBuzz")
     else:
         print(f"{liczby}")
-    liczby +=1
+    liczby += 1
