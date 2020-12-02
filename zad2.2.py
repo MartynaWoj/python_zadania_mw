@@ -1,6 +1,8 @@
-####?????
-linijki = int(input("Podaj liczbę całkowitą: "))
-i = 1
-while i <= linijki:
-    print(f"{'*' * gwiazdka}\n{'*' * linijki}")
-    i += 1
+n = int(input("Podaj liczbę całkowitą: "))
+gwiazdka = 1
+while gwiazdka <= n:
+    spacja = (n - gwiazdka) / 2
+    podstawa = n + spacja
+    gwiazdka += 1
+    break
+print(f"' '")
