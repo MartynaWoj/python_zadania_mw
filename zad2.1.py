@@ -10,6 +10,6 @@ while True:
     if suma != suma_uzytkownik:
         print("Suma niepoprawna. Spróbuj jeszcze raz.")
         continue
-    if suma == suma_uzytkownik:
+    else:
         print("Suma poprawna.")
     break

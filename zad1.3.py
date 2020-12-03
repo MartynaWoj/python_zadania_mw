@@ -1,26 +1,26 @@
 wzrost = (float(input("Podaj swój wzrost w cm: ")))/100
 masa = float(input("Podaj swoją masę ciała w kg: "))
-BMI = masa/(wzrost**2)
-if BMI<16:
+bmi = masa/(wzrost**2)
+if bmi<16:
     kategoria = "wygłodzenie"
-elif BMI < 16.99:
+elif bmi < 16.99:
     kategoria = "wychudzenie"
-elif BMI < 18.49:
+elif bmi < 18.49:
     kategoria = "niedowaga"
-elif BMI < 24.99:
+elif bmi < 24.99:
     kategoria = "waga prawidłowa"
-elif BMI < 29.99:
+elif bmi < 29.99:
     kategoria = "nadwaga"
-elif BMI < 34.99:
+elif bmi < 34.99:
     kategoria = "I stopień otyłości"
-elif BMI < 39.99:
+elif bmi < 39.99:
     kategoria = "II stopień otyłości"
-elif BMI > 40:
+elif bmi > 40:
     kategoria = "otyłość skrajna"
 else:
     print("Dane są nieprawidłowe.")
 
-print(f"Twoje BMI wynosi: {BMI:.2f}. Twoja kategoria: {kategoria} ")
+print(f"Twoje BMI wynosi: {bmi:.2f}. Twoja kategoria: {kategoria} ")
 
 #mniej niż 16 - wygłodzenie
 #16 - 16.99 - wychudzenie
