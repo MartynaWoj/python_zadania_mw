@@ -9,7 +9,7 @@ elif wiek >= 18:
         cena = 180
     else:
         cena = 150
-if wiek > 65:
+if wiek >= 65:
     cena *= 0.9
 
 print(f"Cena za jedną dobę w hotelu to {cena:.0f} zł, a za cały pobyt to: {cena * ile_nocy:.0f} zł.")
